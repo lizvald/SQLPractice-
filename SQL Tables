@@ -1,0 +1,16 @@
+CREATE TABLE tv_shows (
+  id INTEGER,
+  name TEXT,
+  rating INTEGER
+);
+
+INSERT INTO tv_shows (id, name, rating)
+VALUES(1, 'Walking Dead', 3);
+
+INSERT INTO tv_shows (id, name, rating)
+VALUES(2, 'The 100', 4);
+
+INSERT INTO tv_shows (id, name, rating)
+VALUES(3, 'Shameless', 3);
+
+
